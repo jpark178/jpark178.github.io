@@ -18,6 +18,7 @@ body {
     z-index: 1;
 }
 
+
 /* start navigation */
 .header_area .main-menu .navbar-brand {
     padding: 0 0 0 10px;
@@ -68,6 +69,11 @@ body {
 /* end navigation */
 
 /* banner */
+
+.site-main .container{
+    padding-bottom: 210px;
+}
+
 .site-main .site-banner {
     background: no-repeat 0% 50%; /* create banner !! */
 }
@@ -104,9 +110,10 @@ body {
 .site-main .site-banner .banner-image > img {
     margin-top: 200px;
     width: 90%; 
-    border-radius: 50%;
+    border-radius: 100%;
     filter: grayscale(70%);
-    box-shadow: 10px 10px 0px 0px;
+    box-shadow: 5px 10px 20px #854fee;
+    margin-left: 140px;
 }
 
 /* end banner */
@@ -142,6 +149,62 @@ body {
 
 /* end about area */
 
+/* start skills area */
+
+.site-main .skills-area {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.site-main .skills-area .skills-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px var(--Raleway);
+    letter-spacing: 20px;
+    color: var(--primary-color);
+    padding-left: 300px;
+}
+
+.site-main .skills-area .table {
+    width: 50%;
+    justify-content: space-around;
+    margin: auto;
+    table-layout: fixed;
+    color: var(--primary-color);
+    margin-right: 200px;
+}
+
+/* end skills area */
+
+/* start experience area */
+.site-main .experience-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.site-main .experience-area .experience-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px var(--Raleway);
+    letter-spacing: 20px;
+    color: var(--primary-color);
+    padding-left: 120px;
+}
+
+.site-main .experience-area .experience-entries .experience-entry {
+    width: 45%;
+    margin: 0 auto;
+    margin-right: 300px;
+}
+
+.site-main .experience-area .experience-entries .experience-entry .date{
+   color: #afafbf;
+}
+
+
+/* end experience area */
+
+
+
 /* start project area */
 .site-main .project-area .project-title h2 > span {
     display: block;
@@ -166,6 +229,7 @@ body {
 
 footer.footer-area {
     padding: 10px 20px 20px 20px;
+    margin-top: -250px;
 }
 
 footer.footer-area .site-logo{
