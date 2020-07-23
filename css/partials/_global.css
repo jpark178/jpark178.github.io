@@ -20,13 +20,13 @@
 .button.primary-button {
     background: var(--gradient-color);
     background-clip: padding-box;
-    color: whitesmoke;
+    color: white;
     transition: background 1s ease;
     box-shadow: var(--box-shadow);
 }
 
 .button.primary-button:hover {
-    background: whitesmoke;
+    background: white;
     background-clip: padding-box;
     color: black;
 }
@@ -51,13 +51,13 @@
 
 .button.secondary-button:hover {
     background: var(--gradient-color);
-    color: whitesmoke;
+    color: white;
     box-shadow: var(--box-shadow);
 }
 
 .button.third-button {
     position: absolute;
-    background: whitesmoke;
+    background: white;
     background-clip: padding-box;
     transition: background 1s ease;
 }
