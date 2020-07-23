@@ -47,6 +47,7 @@
     background: white;
     background-clip: padding-box;
     transition: background 1s ease;
+    color: #854fee;
 }
 
 .button.secondary-button:hover {
