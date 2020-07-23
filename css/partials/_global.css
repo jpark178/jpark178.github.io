@@ -134,7 +134,7 @@ button:active
     background: #ffff;
     box-shadow: var(--box-shadow);
     z-index: 999; /* bring bar to top of window */
-    transition: background 1s ease;
+    transition: background 7s step-start;
 }
 
 
